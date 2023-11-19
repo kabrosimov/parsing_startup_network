@@ -120,12 +120,6 @@ def get_data_startup(dict_of_links):
 
             }
         )
-
-        # print(startup_name)
-        # for k, item in enumerate(startup_header):
-        #     print(k, item.text)
-        # print(startup_code)
-
         print(f"Осталось:{count_links}")
 
         count_links -= 1
